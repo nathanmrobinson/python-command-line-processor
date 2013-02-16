@@ -1,11 +1,28 @@
 """ File:        cmd_line.py
     Author:      Nathan Robinson
     Contact:     nathan.m.robinson@gmail.com
-    Date:        2012-07-07
-    Desctiption: This module describes a generic command line input processor
-                 for python programs
+    Date:        2013-02-16
+    URL:         https://bitbucket.org/nathanrobinson/python-command-line-processor
+    Description: This module implements a generic command line processor.
+                 To use the processor, create a new ArgProcessor object and
+                 add the required ArgDefinition and FlagDefinition objects and
+                 call the parse_args method. ArgDefinitions can validate their
+                 input with the included validator functions. New validators
+                 can be registered with the register_validator method.
 
-    Liscence:   [Refine this!]
+    Copyright (c) Year 2013, Nathan Robinson <nathan.m.robinson@gmail.com>
+    
+    Permission to use, copy, modify, and/or distribute this software for any
+    purpose with or without fee is hereby granted, provided that the above
+    copyright notice and this permission notice appear in all copies.
+
+    THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+    WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+    MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+    SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+    WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+    ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
+    IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 """
 
 import sys

@@ -1,5 +1,38 @@
-A Python command line processing system.
+Python command line processor.
 
-Details.
+Author:      Nathan Robinson
+Contact:     nathan.m.robinson@gmail.com
+Date:        2013-02-16
+Version:     1.0
+URL:         https://bitbucket.org/nathanrobinson/python-command-line-processor
 
-Example usage - brief.
+Description:
+
+This module implements a generic command line processor. It provides an easy
+way of collecting and validating command line input for scientific and other
+applications.
+
+To use the processor, create a new ArgProcessor object, add the required
+ArgDefinition and FlagDefinition objects, and call the parse_args method.
+
+ArgDefinitions can validate their input with the included validator functions.
+New validators can be registered with the register_validator method.
+
+See example_cmd_line.py for examples of how to 
+
+Licence:
+-------------------------------------------------------------------------------
+
+Copyright (c) Year 2013, Nathan Robinson <nathan.m.robinson@gmail.com>
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
+IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
