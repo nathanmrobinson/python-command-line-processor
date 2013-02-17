@@ -18,7 +18,7 @@ ArgDefinition and FlagDefinition objects, and call the parse_args method.
 ArgDefinitions can validate their input with the included validator functions.
 New validators can be registered with the register_validator method.
 
-See example_cmd_line.py for examples of how to 
+See example_cmd_line.py for examples of how to use cmd_line.py.
 
 Licence:
 -------------------------------------------------------------------------------
